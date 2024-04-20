@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F62C4FBE2B95D637003CBB8A /* AsyncImageClassifierApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62C4FBD2B95D637003CBB8A /* AsyncImageClassifierApp.swift */; };
+		F62C4FC02B95D637003CBB8A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62C4FBF2B95D637003CBB8A /* ContentView.swift */; };
+		F62C4FC22B95D638003CBB8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F62C4FC12B95D638003CBB8A /* Assets.xcassets */; };
+		F62C4FC52B95D638003CBB8A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F62C4FC42B95D638003CBB8A /* Preview Assets.xcassets */; };
+		F62C4FCF2B95D65D003CBB8A /* ImageClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62C4FCC2B95D65D003CBB8A /* ImageClassifier.swift */; };
+		F62C4FD02B95D65D003CBB8A /* AsyncController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62C4FCD2B95D65D003CBB8A /* AsyncController.swift */; };
+		F62C4FD12B95D65D003CBB8A /* MyImageClassifier 2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F62C4FCE2B95D65D003CBB8A /* MyImageClassifier 2.mlmodel */; };
+		F62C4FD32B95D6CF003CBB8A /* Images.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F62C4FD22B95D6CF003CBB8A /* Images.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F62C4FBA2B95D637003CBB8A /* AsyncImageClassifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AsyncImageClassifier.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F62C4FBD2B95D637003CBB8A /* AsyncImageClassifierApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageClassifierApp.swift; sourceTree = "<group>"; };
+		F62C4FBF2B95D637003CBB8A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F62C4FC12B95D638003CBB8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F62C4FC42B95D638003CBB8A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F62C4FC62B95D638003CBB8A /* AsyncImageClassifier.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AsyncImageClassifier.entitlements; sourceTree = "<group>"; };
+		F62C4FCC2B95D65D003CBB8A /* ImageClassifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageClassifier.swift; sourceTree = "<group>"; };
+		F62C4FCD2B95D65D003CBB8A /* AsyncController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncController.swift; sourceTree = "<group>"; };
+		F62C4FCE2B95D65D003CBB8A /* MyImageClassifier 2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "MyImageClassifier 2.mlmodel"; sourceTree = "<group>"; };
+		F62C4FD22B95D6CF003CBB8A /* Images.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Images.bundle; sourceTree = "<group>"; };
+		F6D9D50B2BBD530100D94C6F /* Documents alias */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Documents alias"; sourceTree = "<group>"; };
+		F6D9D50C2BBD680C00D94C6F /* Documents alias 2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Documents alias 2"; sourceTree = "<group>"; };
+		F6D9D50D2BBD684800D94C6F /* Resources alias */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Resources alias"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F62C4FB72B95D637003CBB8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F62C4FB12B95D637003CBB8A = {
+			isa = PBXGroup;
+			children = (
+				F62C4FBC2B95D637003CBB8A /* AsyncImageClassifier */,
+				F62C4FBB2B95D637003CBB8A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F62C4FBB2B95D637003CBB8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F62C4FBA2B95D637003CBB8A /* AsyncImageClassifier.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F62C4FBC2B95D637003CBB8A /* AsyncImageClassifier */ = {
+			isa = PBXGroup;
+			children = (
+				F62C4FC62B95D638003CBB8A /* AsyncImageClassifier.entitlements */,
+				F62C4FD42B963210003CBB8A /* App */,
+				F62C4FD72B96323F003CBB8A /* Modules */,
+				F62C4FD62B963230003CBB8A /* Support */,
+				F62C4FD52B96321C003CBB8A /* Data */,
+				F62C4FC32B95D638003CBB8A /* Preview Content */,
+			);
+			path = AsyncImageClassifier;
+			sourceTree = "<group>";
+		};
+		F62C4FC32B95D638003CBB8A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F62C4FC42B95D638003CBB8A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F62C4FD42B963210003CBB8A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F62C4FBD2B95D637003CBB8A /* AsyncImageClassifierApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		F62C4FD52B96321C003CBB8A /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				F6D9D50D2BBD684800D94C6F /* Resources alias */,
+				F6D9D50C2BBD680C00D94C6F /* Documents alias 2 */,
+				F6D9D50B2BBD530100D94C6F /* Documents alias */,
+				F62C4FCE2B95D65D003CBB8A /* MyImageClassifier 2.mlmodel */,
+				F62C4FD22B95D6CF003CBB8A /* Images.bundle */,
+				F62C4FC12B95D638003CBB8A /* Assets.xcassets */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		F62C4FD62B963230003CBB8A /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				F62C4FCC2B95D65D003CBB8A /* ImageClassifier.swift */,
+				F62C4FCD2B95D65D003CBB8A /* AsyncController.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		F62C4FD72B96323F003CBB8A /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				F62C4FD82B963247003CBB8A /* Main */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		F62C4FD82B963247003CBB8A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F62C4FD92B96324C003CBB8A /* Views */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		F62C4FD92B96324C003CBB8A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F62C4FBF2B95D637003CBB8A /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F62C4FB92B95D637003CBB8A /* AsyncImageClassifier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F62C4FC92B95D638003CBB8A /* Build configuration list for PBXNativeTarget "AsyncImageClassifier" */;
+			buildPhases = (
+				F62C4FB62B95D637003CBB8A /* Sources */,
+				F62C4FB72B95D637003CBB8A /* Frameworks */,
+				F62C4FB82B95D637003CBB8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AsyncImageClassifier;
+			productName = AsyncImageClassifier;
+			productReference = F62C4FBA2B95D637003CBB8A /* AsyncImageClassifier.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F62C4FB22B95D637003CBB8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					F62C4FB92B95D637003CBB8A = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = F62C4FB52B95D637003CBB8A /* Build configuration list for PBXProject "AsyncImageClassifier" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F62C4FB12B95D637003CBB8A;
+			productRefGroup = F62C4FBB2B95D637003CBB8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F62C4FB92B95D637003CBB8A /* AsyncImageClassifier */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F62C4FB82B95D637003CBB8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F62C4FC52B95D638003CBB8A /* Preview Assets.xcassets in Resources */,
+				F62C4FC22B95D638003CBB8A /* Assets.xcassets in Resources */,
+				F62C4FD32B95D6CF003CBB8A /* Images.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F62C4FB62B95D637003CBB8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F62C4FD12B95D65D003CBB8A /* MyImageClassifier 2.mlmodel in Sources */,
+				F62C4FC02B95D637003CBB8A /* ContentView.swift in Sources */,
+				F62C4FCF2B95D65D003CBB8A /* ImageClassifier.swift in Sources */,
+				F62C4FD02B95D65D003CBB8A /* AsyncController.swift in Sources */,
+				F62C4FBE2B95D637003CBB8A /* AsyncImageClassifierApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F62C4FC72B95D638003CBB8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F62C4FC82B95D638003CBB8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		F62C4FCA2B95D638003CBB8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AsyncImageClassifier/AsyncImageClassifier.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AsyncImageClassifier/Preview Content\"";
+				DEVELOPMENT_TEAM = 5374B32457;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vdc.Pr3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F62C4FCB2B95D638003CBB8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AsyncImageClassifier/AsyncImageClassifier.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AsyncImageClassifier/Preview Content\"";
+				DEVELOPMENT_TEAM = 5374B32457;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vdc.Pr3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F62C4FB52B95D637003CBB8A /* Build configuration list for PBXProject "AsyncImageClassifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F62C4FC72B95D638003CBB8A /* Debug */,
+				F62C4FC82B95D638003CBB8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F62C4FC92B95D638003CBB8A /* Build configuration list for PBXNativeTarget "AsyncImageClassifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F62C4FCA2B95D638003CBB8A /* Debug */,
+				F62C4FCB2B95D638003CBB8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F62C4FB22B95D637003CBB8A /* Project object */;
+}
